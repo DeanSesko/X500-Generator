@@ -1,0 +1,9 @@
+﻿<Project>
+  <Version>1</Version>
+  <FileID>96724c1c-f995-4fdb-ae47-7e1a791c0142</FileID>
+  <ProjectType>0</ProjectType>
+  <Files>
+    <File ReferenceName="" Build="0">Startup.pss</File>
+    <File ReferenceName="Call-X500Generator_psf" Build="0">X500Generator.psf</File>
+  </Files>
+</Project>
