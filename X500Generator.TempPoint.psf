@@ -1,6 +1,6 @@
 ﻿<File version="2">
   <FileID>fbf4f669-1f0a-4258-9895-16a3cf4bc16c</FileID>
-  <LastExport>130973464527669367</LastExport>
+  <LastExport>130973416738608283</LastExport>
   <Preview>iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
 jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAACQrSURBVHhe7d1HcJznnefxuc3MaWvve9jz1pav
 3t3LnFw1u1XrnbFdtuSR5SDLMhUoURJJMYiZYs4UCAaABAiABJGIQOQcGjkDjZzRARnoRmT67fO8
@@ -231,7 +231,6 @@ $GenerateX500Button_Click={
 	$IMCEAEXVar = $IMCEAEXVar.Replace("+28", "(")
 	$IMCEAEXVar = $IMCEAEXVar.Replace("+29", ")")
 	$IMCEAEXVar = $IMCEAEXVar.Replace("+2E", ".")
-	$IMCEAEXVar = $IMCEAEXVar.Replace("+2C", ",")
 	$IMCEAEXVar = $IMCEAEXVar.Substring(0, $IMCEAEXVar.IndexOf('@'))
 	$ValidX500TextBox.Text = $IMCEAEXVar
 }
@@ -239,7 +238,7 @@ $GenerateX500Button_Click={
 $Exitbutton_Click={
 	$X500Generator.Close()
 	}]]></Code>
-  <Mode>1</Mode>
+  <Mode>0</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
     <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
